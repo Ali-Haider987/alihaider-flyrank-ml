@@ -1,0 +1,22 @@
+{
+  "action_bucket_counts": {
+    "ctr_fix_review": 2182,
+    "manual_context_check": 51,
+    "no_action": 22477,
+    "no_action_too_new": 2236,
+    "refresh_review": 17,
+    "refresh_review_general": 3037
+  },
+  "feature_set_version": "w06_final (90-day totals dropped)",
+  "full_portfolio_base_rate": 0.5421,
+  "held_out_validation": {
+    "average_precision": 0.6016,
+    "base_rate": 0.391,
+    "roc_auc": 0.7431
+  },
+  "random_state": 42,
+  "split_strategy": "client_holdout",
+  "test_client_count": 6,
+  "thin_freshness_tier_row_share": 0.0116,
+  "total_client_count": 32
+}
